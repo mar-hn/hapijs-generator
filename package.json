@@ -1,0 +1,17 @@
+{
+  "name": "hapijs-generator",
+  "version": "1.0.0",
+  "description": "Template generator for HapiJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mar Nuñez",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.0.0"
+  },
+  "bin": {
+    "hapijs-generate": "./index.js"
+ }  
+}
