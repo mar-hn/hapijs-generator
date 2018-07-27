@@ -1,6 +1,6 @@
 {
   "name": "hapijs-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Template generator for HapiJS",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.0.0"
+  },
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/mar-hn/hapijs-generator.git"
   },
   "bin": {
     "hapijs-generate": "./index.js"

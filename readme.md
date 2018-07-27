@@ -4,5 +4,10 @@ Template creator for HapiJS. This is work in progress.
 
 ## Installation
 ```sh
-$ npm install hapijs-generator -g
+$ sudo npm install hapijs-generator -g
+```
+
+To run generator:
+```sh
+$ hapijs-generate
 ```

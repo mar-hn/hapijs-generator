@@ -19,7 +19,7 @@ module.exports =
         method: 'POST', path: '/greet/{name}', 
         options: 
         {             
-            auth: 'jwt', //Uncomment this line to use authentication on this route
+            //auth: 'jwt', //Uncomment this line to use authentication on this route
             handler: mainCtrl.greet,
             validate:
             {
