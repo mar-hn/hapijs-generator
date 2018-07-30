@@ -1,11 +1,11 @@
 {
-  "name": "api-template",
+  "name": "mvc-template",
   "version": "0.0.1",
   "description": "",
-  "main": "./api/sys/server.js",
+  "main": "./app/sys/server.js",
   "scripts": {
-    "start": "node ./api/sys/server.js",
-    "dev": "nodemon -e js,jade,html,hbs,json ./api/sys/server.js",
+    "start": "node ./app/sys/server.js",
+    "dev": "nodemon -e js,jade,html,hbs,json ./app/sys/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SS-HN",
@@ -34,7 +34,8 @@
     "ssh2-sftp-client": "^2.3.0",
     "uuid": "^3.2.1",
     "vision": "^5.3.1",
-    "winston": "^3.0.0"
+    "winston": "^3.0.0",
+    "hapi-auth-cookie": "^8.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
