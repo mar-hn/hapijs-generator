@@ -1,6 +1,6 @@
 {
   "name": "hapijs-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Template generator for HapiJS",
   "main": "index.js",
   "scripts": {

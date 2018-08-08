@@ -27,6 +27,13 @@ fw.server = new Hapi.Server({
     //     request: ['*'],
     //     log: ['*']
     // }
+    ,
+    cache : [{
+            engine    : require('catbox-disk'),
+            cachePath: __dirname + '/../../',
+            cleanEvery: 3600000,
+            partition : 'cache'
+    }]        
 });
 
 function getRoutes()
