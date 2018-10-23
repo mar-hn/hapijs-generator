@@ -91,7 +91,7 @@ async function start(){
         // Start server
         await fw.server.start();
         console.log(`Server is running on ${fw.server.info.uri}`);
-        console.log(`Enviroment: ${process.env.NODE_ENV || 'development'}`);
+        console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
     }
     catch(error)
     {        
