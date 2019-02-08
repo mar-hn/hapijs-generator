@@ -9,7 +9,7 @@
   "author": "Mar Nuñez",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.0.0"
+    "inquirer": "^6.2.2"
   },
   "repository" :
   { 
